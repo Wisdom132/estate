@@ -1,0 +1,44 @@
+.container {
+    width:80%;
+}
+#header {
+    background:linear-gradient(rgba(0, 0, 34, 0.55), rgba(0, 0, 34, 0.55)),url('images/s.jpg');
+    height:640px;
+    background-size:cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.header-text {
+    margin-top:200px;
+}
+.card {
+    height:26rem;
+}
+.para {
+    text-align: justify
+}
+.abt-para {
+    text-align: justify;
+}
+
+
+.parallax-container {
+    height:400px ;
+  }
+
+  @media(max-width:320px) {
+    .parallax-container {
+        height:200px ;
+      } 
+      .abt-para {
+          padding-top:10px !important;
+          line-height: 30px;
+      }
+  }
+  @media(min-width:1024px) {
+.abt-para {
+    padding-top:70px;
+    line-height: 35px;
+    text-align: justify;
+}
+  }
